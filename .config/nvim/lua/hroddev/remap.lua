@@ -15,3 +15,11 @@ vim.keymap.set("n", "zz", "<C-w>|", opts)
 -- Indentations
 vim.keymap.set("v", ">", ">gv", { silent = true })
 vim.keymap.set("v", "<", "<gv", { silent = true })
+
+-- Select all 
+vim.keymap.set("n", "<leader>A", "ggVG", opts)
+
+-- Explore
+vim.keymap.set("n", "<leader>E", ":Explore", opts)
+
+
